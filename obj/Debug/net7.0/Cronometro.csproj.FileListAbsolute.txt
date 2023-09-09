@@ -1,0 +1,15 @@
+/home/renne/Cronometro/bin/Debug/net7.0/Cronometro
+/home/renne/Cronometro/bin/Debug/net7.0/Cronometro.deps.json
+/home/renne/Cronometro/bin/Debug/net7.0/Cronometro.runtimeconfig.json
+/home/renne/Cronometro/bin/Debug/net7.0/Cronometro.dll
+/home/renne/Cronometro/bin/Debug/net7.0/Cronometro.pdb
+/home/renne/Cronometro/obj/Debug/net7.0/Cronometro.csproj.AssemblyReference.cache
+/home/renne/Cronometro/obj/Debug/net7.0/Cronometro.GeneratedMSBuildEditorConfig.editorconfig
+/home/renne/Cronometro/obj/Debug/net7.0/Cronometro.AssemblyInfoInputs.cache
+/home/renne/Cronometro/obj/Debug/net7.0/Cronometro.AssemblyInfo.cs
+/home/renne/Cronometro/obj/Debug/net7.0/Cronometro.csproj.CoreCompileInputs.cache
+/home/renne/Cronometro/obj/Debug/net7.0/Cronometro.dll
+/home/renne/Cronometro/obj/Debug/net7.0/refint/Cronometro.dll
+/home/renne/Cronometro/obj/Debug/net7.0/Cronometro.pdb
+/home/renne/Cronometro/obj/Debug/net7.0/Cronometro.genruntimeconfig.cache
+/home/renne/Cronometro/obj/Debug/net7.0/ref/Cronometro.dll
