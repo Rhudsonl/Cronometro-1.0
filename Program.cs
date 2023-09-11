@@ -15,53 +15,48 @@ namespace Cronometro // Note: actual namespace depends on the project name.
         }
 
         static void Menu() {
-            Console.WriteLine("Escolha uma opção");
-            Console.WriteLine("");
-            Console.WriteLine("S - secundos");
-            Console.WriteLine("M - minutos");
-                 var vl = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("S = Sengundo => 10s = 10 segundos");
+            Console.WriteLine("M = Minuto => 1m = 1 minuto");
+            Console.WriteLine("0 Sair");
+            Console.WriteLine("Quanto tempo deseja contar?");
+               
+               string data = Console.ReadLine().ToLower();
 
-                 switch(vl){
-                      case "S": Start("S");
-                      break;
-                      case "M": Start("M");
-                      break;
-                 }
+               char type = char.Parse(data.Substring(data.Length - 1,1));
+               int time = int.Parse(data.Substring(0,data.Length - 1));
+
+               int multiplier = 1;
+
+               if(type == 'm') {
+                multiplier = 60;
+               }
+
+               if(time == 0) {
+                System.Environment.Exit(0);
+               }
+
+               Start(time * multiplier);
 
         }
 
-        static void Start(string time) {
+        
 
-            if(time == "S") {
+        static void Start(int time) {
 
-            Console.Clear();
-            Console.WriteLine("Digite os segundos:");
-           int vl = int.Parse(Console.ReadLine());
+            
 
-           while (vl != 0)
+           while (time != 0)
            {
-            vl--;
-            Console.WriteLine($"{vl}");
+            time--;
+            Console.WriteLine($"{time}");
             Thread.Sleep(1000);
            }
             }
 
-            if(time == "M") {
-
-            Console.Clear();
-            Console.WriteLine("Digite os Minutos:");
-           int vl = int.Parse(Console.ReadLine());
-
-           while (vl != 0)
-           {
-            vl--;
-            Console.WriteLine($"{vl}s");
-            Thread.Sleep(60000);
-           }
-            }
+            
 
         }
 
 
     }
-}
